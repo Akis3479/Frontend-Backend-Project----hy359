@@ -1,0 +1,646 @@
+<html>
+
+<head>
+    <title>
+        Photobook
+    </title>
+    <meta name="author" content="Evangelos Sougias csd3479">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Sign up page">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+
+</head>
+
+<body>
+
+
+    <nav id="navbar" class="navbar" style="display: none;">
+        <div class="logo">
+            Photo<b style="color: #E19D5E">Book</b>
+        </div>
+        <ul class="navbar-nav">
+            <li>
+                <input class="search" type="text" placeholder="Search..">
+            </li> 
+            <li>
+                <button id="home" class="nav-item">home</button>
+            </li>
+            <li>
+                <button id="profile" class="nav-item">profile</button>
+            </li>
+            <li>
+                <button id="signOutBtn" class="nav-item">sign out</button>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="main_container" id="prof" style="display: none;">
+
+
+        <div class="userinfo">
+            <h2>Personal Info</h2>
+            <p id="UserNLog2"></p>
+            <p id="emailLog2"></p>
+            <p id="firstNameLog2"></p>
+            <p id="lastNameLog2"></p>
+            <p id="birthdayLog2"></p>
+            <p id="genderLog2"></p>
+            <p id="countryLog2"></p>
+            <p id="townLog2"></p>
+            <p id="addressLog2"></p>
+            <p id="interstesLog2"></p>
+            <p id="infoLog2"></p>
+        </div>
+
+
+            <div  class="post_container">
+                <div id="posts" class="user_posts" style="background-color: transparent;">
+                    <div class="create_post">
+                        <textarea class="create_post_text"  id="text_post2" placeholder="Write Something..." name="post" rows="1"
+                            cols="10"></textarea>
+                        <div class="create">
+                            <button class="photo_btn"> <i style="font-size: 20px;" class='fas fa-camera'></i> </button>
+                            <button class="post_btn"> Post </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="posts1" class="user_posts">
+                <button id="edit1" class="register" >Edit</button>
+                <button id="post1"><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea1" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm1" style="display: none;" >confirm changes</button>
+                <div id="text1" class="text"></div>
+                <img id="img1P" src="" alt=""/>
+                <div id="date1" class="create"></div>
+
+            </div>
+            <div id="posts2" class="user_posts">
+                <button id="edit2" class="register" >Edit</button>
+                <button id="post2"><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea2" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm2" style="display: none;" >confirm changes</button>
+                <div id="text2" class="text"></div>
+                <img id="img2P" src="" alt=""/>
+                <div id="date2" class="create"></div>
+
+            </div>
+            <div id="posts3" class="user_posts">
+                <button id="edit3" class="register" >Edit</button>
+                <button id="post3" ><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea3" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm3" style="display: none;" >confirm changes</button>
+                <div id="text3" class="text"></div>
+                <img id="img3P" src="" alt=""/>
+                <div id="date3" class="create"> </div>
+
+            </div>
+            <div id="posts4" class="user_posts">
+                <button id="edit4" class="register" >Edit</button>
+                <button id="post4" ><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea4" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm4" style="display: none;" >confirm changes</button>
+                <div id="text4" class="text"></div>
+                <img id="img4P" src="" alt=""/>
+                <div id="date4" class="create"></div>
+
+            </div>
+            <div id="posts5" class="user_posts">
+                <button id="edit5" class="register" >Edit</button>
+                <button id="post5" ><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea5" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm5" style="display: none;" >confirm changes</button>
+                <div id="text5" class="text"></div>
+                <div id="date5" class="create"></div>
+                <img id="img5P" src="" alt=""/>
+            </div>
+            <div id="posts6" class="user_posts">
+                <button id="edit6" class="register" >Edit</button>
+                <button id="post6" ><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea6" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm6" style="display: none;" >confirm changes</button>
+                <div id="text6" class="text"></div>
+                <img id="img6P" src="" alt=""/>
+                <div id="date6" class="create"></div>
+
+            </div>
+            <div id="posts7" class="user_posts">
+                <button id="edit7" class="register" >Edit</button>
+                <button id="post7" ><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea7" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm7" style="display: none;" >confirm changes</button>
+                <div id="text7" class="text"></div>
+                <img id="img7P" src="" alt=""/>
+                <div id="date7" class="create"></div>
+
+            </div>
+            <div id="posts8" class="user_posts">
+                <button id="edit8" class="register" >Edit</button>
+                <button id="post8"><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea8" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm8" style="display: none;" >confirm changes</button>
+                <div id="text8" class="text"></div>
+                <img id="img8P" src="" alt=""/>
+                <div id="date8" class="create"></div>
+
+            </div>
+            <div id="posts9" class="user_posts">
+                <button id="edit9" class="register" >Edit</button>
+                <button id="post9"><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea9" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm9" style="display: none;" >confirm changes</button>
+                <div id="text9" class="text"></div>
+                <img id="img9P" src="" alt=""/>
+                <div id="date9" class="create"></div>
+
+            </div>
+            <div id="posts10" class="user_posts">
+                <button id="edit10" class="register" >Edit</button>
+                <button id="post10"><i class="fas fa-times"></i></button>
+                <textarea  id="txtarea10" rows="10" style="height: 40px; background-color: rgb(191, 191, 191); display: none;" ></textarea>
+                <button id="confirm10" style="display: none;" >confirm changes</button>
+                <div id="text10" class="text"></div>
+                <img id="img10P" src="" alt=""/>
+                <div id="date10" class="create"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="logInCont">
+        <h1>PhotoBook</h1>
+        <fieldset class="container">
+            <legend style="font-weight: 500;"> Log in</legend>
+            <input type="text" placeholder="Username" id="username2" minlength="8" required>
+            <input type="password" placeholder="Password" id="pswLog" required>
+            <br>
+            <br>
+            <h3 id="wrongInfo" style="display:none">Wrong Username or Password</h3>
+            <button type="button" class="register" id="goToSignUp">
+                Register
+            </button>
+            <button class="submitBtn" type="button" id="submitLogIn">
+                Login
+            </button>
+            <br>
+            <br>
+        </fieldset>
+    </div>
+
+    <div id="main" class="main_container" style="display: none;">
+        <div id="posts1" class="main_posts">
+            <div id="post1_username" class="post_username"></div>
+            <div id="text1_post" class="text"></div>
+            <img id="img1" src="" alt=""/>
+            <div id="post1_info" class="create">
+            </div>
+        </div>
+        <div id="posts" class="main_posts" style="background-color: transparent;">
+            <div class="create_post">
+                <textarea class="create_post_text" id="text_post" placeholder="Write Something..." name="post" rows="1"
+                    cols="10"></textarea>
+                <div id="photo_area" style="display: none;">
+                    <video id='video' width='400' height='280' autoplay></video>
+                    <input type='button' id="snap" value='Take Photo'>
+                    <input type='button' id="upload" value='Upload Image'>
+                    <canvas id='canvas' width='400' height='280'></canvas>
+                </div>
+                <div class="create">
+                    <button class="photo_btn"> <i style="font-size: 20px;" class='fas fa-camera'></i> </button>
+                    <button id="post" class="post_btn"> Post </button>
+                </div>
+            </div>
+        </div>
+        <div id="posts2" class="main_posts">
+            <div id="post2_username" class="post_username"></div>
+            <div id="text2_post" class="text"></div>
+            <img id="img2" src="" alt="" />
+            <div id="post2_info" class="create">
+            </div>
+        </div>
+        <div id="posts3" class="main_posts">
+            <div id="post3_username" class="post_username"></div>
+            <div id="text3_post" class="text"></div>
+            <img id="img3" src="" alt=""/>
+            <div id="post3_info" class="create">
+            </div>
+        </div>
+        <div id="posts4" class="main_posts">
+            <div id="post4_username" class="post_username"></div>
+            <div id="text4_post" class="text"></div>
+            <img id="img4" src="" alt=""/>
+            <div id="post4_info" class="create">
+            </div>
+        </div>
+        <div id="posts5" class="main_posts">
+            <div id="post5_username" class="post_username"></div>
+            <div id="text5_post" class="text"></div>
+            <img id="img5" src="" alt=""/>
+            <div id="post5_info" class="create">
+            </div>
+        </div>
+        <div id="posts6" class="main_posts">
+            <div id="post6_username" class="post_username"></div>
+            <div id="text6_post" class="text"></div>
+            <img id="img6" src="" alt=""/>
+            <div id="post6_info" class="create">
+            </div>
+        </div>
+        <div id="posts7" class="main_posts">
+            <div id="post7_username" class="post_username"></div>
+            <div id="text7_post" class="text"></div>
+            <img id="img7" src="" alt=""/>
+            <div id="post7_info" class="create">
+            </div>
+        </div>
+        <div id="posts8" class="main_posts">
+            <div id="post8_username" class="post_username"></div>
+            <div id="text8_post" class="text"></div>
+            <img id="img8" src="" alt=""/>
+            <div id="post8_info" class="create">
+            </div>
+        </div>
+        <div id="posts9" class="main_posts">
+            <div id="post9_username" class="post_username"></div>
+            <div id="text9_post" class="text"></div>
+            <img id="img9" src="" alt=""/>
+            <div id="post9_info" class="create">
+            </div>
+        </div>
+        <div id="posts10" class="main_posts">
+            <div id="post10_username" class="post_username"></div>
+            <div id="text10_post" class="text"></div>
+            <img id="img10" src="" alt=""/>
+            <div id="post10_info" class="create">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="allUsers" class="container" style="display: none; ">
+        <fieldset class="container">
+            <legend> All Users </legend>
+            <button class="displayUsers" type="button" id="return">Return</button>
+            <h2>Personal Info</h2>
+            <p id="allUsersArray"></p>
+            <br>
+            <br>
+
+    </div>
+
+
+
+    <div id="signUpCont" class="container" style="display: none; ">
+        <h1>PhotoBook</h1>
+        <fieldset class="container">
+            <legend> Sign up Form </legend>
+
+
+
+
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="username" name="username" required>
+            <br>
+
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input type="email" placeholder="Enter Email" id="email" name="email" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="pswRpt" required>
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+            <label for="surname"><b>Surname</b></label>
+            <input type="text" placeholder="Enter Surname" name="srname" id="sName" required>
+
+            <label for="birthday"><b>Birthday</b></label>
+            <br>
+            <input type="date" name="birthday" id="birthday" required>
+            <br>
+            <label for="sex"><b>Sex</b></label>
+            <br>
+            <input type="radio" name="sex" id="male" value="male"> Male
+            <br>
+            <input type="radio" name="sex" id="female" value="female"> Female
+            <br>
+            <input type="radio" name="sex" id="other" value="other"> Other
+            <br>
+            <input type="radio" name="sex" id="notsay" value="notsay"> Prefer not to say
+            <br>
+            <br>
+            <div class=locDiv>
+                <label class=locLabel><b>Location</b></label>
+                <button type=button id="autofill" class="autofill">Autofill</button>
+            </div>
+            <br>
+            <div class="dropdown" style="float: left;">
+                <label for="country" style="font-weight: bold;">Country</label>
+
+                <select class="location" id="country" required>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Åland Islands">Åland Islands</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Belize">Belize</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bermuda">Bermuda</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Bouvet Island">Bouvet Island</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                    <option value="Brunei Darussalam">Brunei Darussalam</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Cape Verde">Cape Verde</option>
+                    <option value="Cayman Islands">Cayman Islands</option>
+                    <option value="Central African Republic">Central African Republic</option>
+                    <option value="Chad">Chad</option>
+                    <option value="Chile">Chile</option>
+                    <option value="China">China</option>
+                    <option value="Christmas Island">Christmas Island</option>
+                    <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Comoros">Comoros</option>
+                    <option value="Congo">Congo</option>
+                    <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                    <option value="Cook Islands">Cook Islands</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Cote D'ivoire">Cote D'ivoire</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Czech Republic">Czech Republic</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Djibouti">Djibouti</option>
+                    <option value="Dominica">Dominica</option>
+                    <option value="Dominican Republic">Dominican Republic</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                    <option value="Eritrea">Eritrea</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                    <option value="Faroe Islands">Faroe Islands</option>
+                    <option value="Fiji">Fiji</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="French Guiana">French Guiana</option>
+                    <option value="French Polynesia">French Polynesia</option>
+                    <option value="French Southern Territories">French Southern Territories</option>
+                    <option value="Gabon">Gabon</option>
+                    <option value="Gambia">Gambia</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Gibraltar">Gibraltar</option>
+                    <option selected="selected" value="Greece">Greece</option>
+                    <option value="Greenland">Greenland</option>
+                    <option value="Grenada">Grenada</option>
+                    <option value="Guadeloupe">Guadeloupe</option>
+                    <option value="Guam">Guam</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Guernsey">Guernsey</option>
+                    <option value="Guinea">Guinea</option>
+                    <option value="Guinea-bissau">Guinea-bissau</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                    <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Hong Kong">Hong Kong</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="India">India</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Isle of Man">Isle of Man</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Jersey">Jersey</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of
+                    </option>
+                    <option value="Korea, Republic of">Korea, Republic of</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Macao">Macao</option>
+                    <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic
+                        of</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Marshall Islands">Marshall Islands</option>
+                    <option value="Martinique">Martinique</option>
+                    <option value="Mauritania">Mauritania</option>
+                    <option value="Mauritius">Mauritius</option>
+                    <option value="Mayotte">Mayotte</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                    <option value="Moldova, Republic of">Moldova, Republic of</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Montenegro">Montenegro</option>
+                    <option value="Montserrat">Montserrat</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Nauru">Nauru</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Netherlands Antilles">Netherlands Antilles</option>
+                    <option value="New Caledonia">New Caledonia</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Niue">Niue</option>
+                    <option value="Norfolk Island">Norfolk Island</option>
+                    <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Palau">Palau</option>
+                    <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Papua New Guinea">Papua New Guinea</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Pitcairn">Pitcairn</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Reunion">Reunion</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Russian Federation">Russian Federation</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Saint Helena">Saint Helena</option>
+                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                    <option value="Saint Lucia">Saint Lucia</option>
+                    <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                    <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                    <option value="Samoa">Samoa</option>
+                    <option value="San Marino">San Marino</option>
+                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Sierra Leone">Sierra Leone</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Solomon Islands">Solomon Islands</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich
+                        Islands</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Suriname">Suriname</option>
+                    <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                    <option value="Swaziland">Swaziland</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                    <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Timor-leste">Timor-leste</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tokelau">Tokelau</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Viet Nam">Viet Nam</option>
+                    <option value="Virgin Islands, British">Virgin Islands, British</option>
+                    <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                    <option value="Wallis and Futuna">Wallis and Futuna</option>
+                    <option value="Western Sahara">Western Sahara</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+            </div>
+            <button type="button" id="buttonMap" class="map">Map</button>
+            <div class="divHack">
+                <div class="mapholder" id="mapholder">
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <label for="town"><b>Town</b></label>
+            <input type="text" placeholder="Enter Town" class="location2" name="town" id="town" required>
+
+            <br>
+            <label for="address"><b>Address</b></label>
+            <input type="text" placeholder="Enter Address" id="address" name="address" class="location">
+
+            <br>
+
+            <label for="interests" style="font-weight: bold;">Interests</label>
+            <br>
+            <textarea id="myTextArea" rows="5" cols="35" placeholder="Your text here (About 100 chars)"></textarea>
+
+            <br>
+            <br>
+
+            <label for="generalInfo" style="font-weight: bold;">General Information</label>
+            <br>
+            <textarea id="generalInfo" rows="7" cols="43" placeholder="Your text here (About 500 chars)"></textarea>
+
+
+            <button class=submitBtn type="button" id="submit">Submit</button>
+
+
+        </fieldset>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script src="js/ajaxRequests.js" type="text/javascript"></script>
+    <script src="js/showHide.js" type="text/javascript"></script>
+    <script src="js/LoginScreen.js" type="text/javascript"></script>
+    <script src="js/cookies.js" type="text/javascript"></script>
+    <script src="js/posts.js" type="text/javascript"></script>
+    <script src="js/photo2.js" type="text/javascript"></script>
+</body>
+
+</html>
