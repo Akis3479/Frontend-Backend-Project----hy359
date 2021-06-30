@@ -1,0 +1,66 @@
+body {
+    background-color:rgba(1, 24, 43, 0.897);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : white;
+    }
+
+h1{
+    text-align: center;
+    margin: 5% 30% 5% 30%;
+    
+  }
+  
+h2{
+    text-align: center;
+    position:relative;
+    font-weight: bolder;
+    padding: 5px 30px 30px 30px;
+    padding-bottom: 20px;
+    margin: 0px 0 15px 0;
+  }
+
+
+
+.container {
+    background-color: rgba(61,61,61,0.65);
+    border:1px solid #ccc ;
+    border-radius: 12px;
+    padding: 40px;
+    margin: 0% 37% 0% 37% ;
+    position: absolute;
+    align-self: center;
+}
+
+input[type=text], input[type=password]  {
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 13px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+    }
+
+button {
+    background-color: #92dab0;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    padding: 14px 14px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    opacity: 0.9;
+    border-radius: 50px;
+  }

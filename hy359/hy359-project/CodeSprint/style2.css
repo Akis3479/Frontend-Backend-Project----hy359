@@ -1,0 +1,83 @@
+* {box-sizing: border-box}
+
+body {
+  background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color : white;
+  ;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password], input[type=email], input[type=date], select {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+/*make shadows*/
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, select:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #a5a5a5;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #92dab0;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  margin-left:40%;
+  margin-right: 35%;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  border-radius: 50px;
+}
+
+
+           
+/* Add padding to container elements */
+.container {
+  background-color: rgba(61,61,61,0.65);
+  border:3px solid #ccc ;
+  border-radius: 20px;
+  margin: 0 20% 0 20%;
+  padding: 0 25px 0 25px ;
+}
+
+/* Clear floats */
+.buttonfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+input[type="radio"] {
+    margin-top: -1px;
+    vertical-align: middle;
+  }
+
+  textarea{
+    resize: none;
+    background: #f1f1f1;
+    border: none;
+  }
+
+  textarea:focus{
+    background: #ddd;
+    outline: none;
+  }
+
+
+
